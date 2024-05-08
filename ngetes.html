@@ -1,210 +1,949 @@
-<nav data-v-1d5a3b76="" class="flex flex-col w-full py-[24px] navbar-container bg-white">
-    <div data-v-1d5a3b76="" class="flex justify-around items-center w-full">
-        <h2 data-v-1d5a3b76="" class="cursor-pointer">
-            <div data-v-1d5a3b76="" class="relative"><button data-v-1d5a3b76="" type="button"
-                    class="flex items-center p-2 gap-[4px]"><span data-v-1d5a3b76="" class="mr-1">Kenali
-                        Kandidat</span><img data-v-1d5a3b76=""
-                        src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M12%202.25C10.0716%202.25%208.18657%202.82183%206.58319%203.89317C4.97981%204.96451%203.73013%206.48726%202.99217%208.26884C2.25422%2010.0504%202.06113%2012.0108%202.43734%2013.9021C2.81355%2015.7934%203.74214%2017.5307%205.10571%2018.8943C6.46927%2020.2579%208.20655%2021.1865%2010.0979%2021.5627C11.9892%2021.9389%2013.9496%2021.7458%2015.7312%2021.0078C17.5127%2020.2699%2019.0355%2019.0202%2020.1068%2017.4168C21.1782%2015.8134%2021.75%2013.9284%2021.75%2012C21.7473%209.41498%2020.7192%206.93661%2018.8913%205.10872C17.0634%203.28084%2014.585%202.25273%2012%202.25ZM12%2020.25C10.3683%2020.25%208.77325%2019.7661%207.41654%2018.8596C6.05984%2017.9531%205.00241%2016.6646%204.37799%2015.1571C3.75357%2013.6496%203.59019%2011.9908%203.90852%2010.3905C4.22685%208.79016%205.01258%207.32015%206.16637%206.16637C7.32015%205.01259%208.79016%204.22685%2010.3905%203.90852C11.9908%203.59019%2013.6496%203.75357%2015.1571%204.37799C16.6646%205.00242%2017.9531%206.05984%2018.8596%207.41655C19.7661%208.77325%2020.25%2010.3683%2020.25%2012C20.2475%2014.1873%2019.3775%2016.2843%2017.8309%2017.8309C16.2843%2019.3775%2014.1873%2020.2475%2012%2020.25ZM14.7806%2011.4694C14.8504%2011.539%2014.9057%2011.6217%2014.9434%2011.7128C14.9812%2011.8038%2015.0006%2011.9014%2015.0006%2012C15.0006%2012.0986%2014.9812%2012.1962%2014.9434%2012.2872C14.9057%2012.3783%2014.8504%2012.461%2014.7806%2012.5306L11.0306%2016.2806C10.9609%2016.3503%2010.8782%2016.4056%2010.7872%2016.4433C10.6961%2016.481%2010.5985%2016.5004%2010.5%2016.5004C10.4015%2016.5004%2010.3039%2016.481%2010.2128%2016.4433C10.1218%2016.4056%2010.0391%2016.3503%209.96937%2016.2806C9.89969%2016.2109%209.84441%2016.1282%209.8067%2016.0372C9.76899%2015.9461%209.74958%2015.8485%209.74958%2015.75C9.74958%2015.6515%209.76899%2015.5539%209.8067%2015.4628C9.84441%2015.3718%209.89969%2015.2891%209.96937%2015.2194L13.1897%2012L9.96937%208.78063C9.82864%208.63989%209.74958%208.44902%209.74958%208.25C9.74958%208.05098%209.82864%207.86011%209.96937%207.71937C10.1101%207.57864%2010.301%207.49958%2010.5%207.49958C10.699%207.49958%2010.8899%207.57864%2011.0306%207.71937L14.7806%2011.4694Z'%20fill='%23282963'/%3e%3c/svg%3e"
-                        alt="icon arrow circle" class="rotate-90"></button>
-                <div data-v-1d5a3b76="" class="w-[340px] bg-transparent pt-[50px] top-0 absolute left-0"
-                    style="display: none;"></div>
-                <div data-v-1d5a3b76=""
-                    class="text-[#192233] absolute left-0 z-[1] p-[16px] mt-2 rounded-md shadow-xl max-w-[340px] w-[340px] bg-white flex flex-col gap-[12px]"
-                    style="box-shadow: rgba(66, 78, 95, 0.24) 0px 24px 100px -12px; display: none;"><a
-                        data-v-1d5a3b76="" href="/about/anies-baswedan"
-                        class="cursor-pointer flex justify-between items-center py-[8px] border-b gap-[12px]"
-                        rel="noreferrer"><img data-v-1d5a3b76=""
-                            src="data:image/webp;base64,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"
-                            alt="Avatar dropdown capres" loading="lazy" width="70" height="70">
-                        <div data-v-1d5a3b76="" class="flex flex-col"><span data-v-1d5a3b76=""
-                                class="w-full font-bold">Kenali Anies</span><span data-v-1d5a3b76=""
-                                class="w-full text-[#556276]">Mari lebih mengenal capres kita untuk masa depan RI</span>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="./assets/img/logos/logo-p.png">
+    <title>
+        Puast Prestasi Nasional
+    </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet" />
+
+    <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+
+    <link id="pagestyle" href="./assets/css/styles.css?v=1.1.1" rel="stylesheet" />
+</head>
+
+<body class="presentation-page">
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div class="container position-sticky z-index-sticky top-0">
+        <div class="row">
+            <div class="col-12">
+                <nav
+                    class="navbar navbar-expand-lg  blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+                    <div class="container-fluid px-0">
+
+                        <a href="https://www.creative-tim.com/product/soft-ui-design-system-pro#pricingCard"
+                            class="btn btn-sm  bg-gradient-primary  btn-round mb-0 ms-auto d-lg-none d-block">Buy
+                            Now</a>
+                        <button class="navbar-toggler shadow-none ms-md-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon mt-2">
+                                <span class="navbar-toggler-bar bar1"></span>
+                                <span class="navbar-toggler-bar bar2"></span>
+                                <span class="navbar-toggler-bar bar3"></span>
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+                            <ul class="navbar-nav navbar-nav-hover mx-auto">
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <a href="./index.html" role="button"
+                                        class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                                        aria-expanded="false">
+                                        BERANDA
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <a role="button"
+                                        class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                                        id="dropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                                        PROFIL
+                                        <img src="./assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1">
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-animation dropdown mt-0 mt-lg-3 p-3 border-radius-xl"
+                                        aria-labelledby="dropdownMenu">
+                                        <div
+                                            class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center px-0">
+                                            <div class="d-inline-block">
+                                                <div
+                                                    class="icon icon-shape icon-xs border-radius-md bg-gradient-primary text-center me-2 d-flex align-items-center justify-content-center">
+                                                    <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <title>shop </title>
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <g transform="translate(-1716.000000, -439.000000)"
+                                                                fill="#FFFFFF" fill-rule="nonzero">
+                                                                <g transform="translate(1716.000000, 291.000000)">
+                                                                    <g transform="translate(0.000000, 148.000000)">
+                                                                        <path
+                                                                            d="M46.7199583,10.7414583 L40.8449583,0.949791667 C40.4909749,0.360605034 39.8540131,0 39.1666667,0 L7.83333333,0 C7.1459869,0 6.50902508,0.360605034 6.15504167,0.949791667 L0.280041667,10.7414583 C0.0969176761,11.0460037 -1.23209662e-05,11.3946378 -1.23209662e-05,11.75 C-0.00758042603,16.0663731 3.48367543,19.5725301 7.80004167,19.5833333 L7.81570833,19.5833333 C9.75003686,19.5882688 11.6168794,18.8726691 13.0522917,17.5760417 C16.0171492,20.2556967 20.5292675,20.2556967 23.494125,17.5760417 C26.4604562,20.2616016 30.9794188,20.2616016 33.94575,17.5760417 C36.2421905,19.6477597 39.5441143,20.1708521 42.3684437,18.9103691 C45.1927731,17.649886 47.0084685,14.8428276 47.0000295,11.75 C47.0000295,11.3946378 46.9030823,11.0460037 46.7199583,10.7414583 Z"
+                                                                            opacity="0.598981585">
+                                                                        </path>
+                                                                        <path
+                                                                            d="M39.198,22.4912623 C37.3776246,22.4928106 35.5817531,22.0149171 33.951625,21.0951667 L33.92225,21.1107282 C31.1430221,22.6838032 27.9255001,22.9318916 24.9844167,21.7998837 C24.4750389,21.605469 23.9777983,21.3722567 23.4960833,21.1018359 L23.4745417,21.1129513 C20.6961809,22.6871153 17.4786145,22.9344611 14.5386667,21.7998837 C14.029926,21.6054643 13.533337,21.3722507 13.0522917,21.1018359 C11.4250962,22.0190609 9.63246555,22.4947009 7.81570833,22.4912623 C7.16510551,22.4842162 6.51607673,22.4173045 5.875,22.2911849 L5.875,44.7220845 C5.875,45.9498589 6.7517757,46.9451667 7.83333333,46.9451667 L19.5833333,46.9451667 L19.5833333,33.6066734 L27.4166667,33.6066734 L27.4166667,46.9451667 L39.1666667,46.9451667 C40.2482243,46.9451667 41.125,45.9498589 41.125,44.7220845 L41.125,22.2822926 C40.4887822,22.4116582 39.8442868,22.4815492 39.198,22.4912623 Z">
+                                                                        </path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            Profil
+                                        </div>
+                                        <a href="./wawasan-umum.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Wawasan Umum dan Misi</span>
+                                        </a>
+                                        <a href="./filosofi.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Filosofi Organisasi</span>
+                                        </a>
+                                        <a href="./struktur.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Struktur Organisasi</span>
+                                        </a>
+                                        <a href="./pages/case-study.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">LAKIP</span>
+                                        </a>
+                                        <a href="./rencana strategi.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Rencana Strategi</span>
+                                        </a>
+                                        <a href="./perjanjian-kerja.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Perjanjian Kerja</span>
+                                        </a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <a role="button"
+                                        class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                                        id="dropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                                        STANDAR PELAYANAN
+                                        <img src="./assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1">
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-animation dropdown mt-0 mt-lg-3 p-3 border-radius-xl"
+                                        aria-labelledby="dropdownMenu">
+                                        <div
+                                            class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center px-0">
+                                            <div class="d-inline-block">
+                                                <div
+                                                    class="icon icon-shape icon-xs border-radius-md bg-gradient-primary text-center me-2 d-flex align-items-center justify-content-center">
+                                                    <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <title>shop </title>
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <g transform="translate(-1716.000000, -439.000000)"
+                                                                fill="#FFFFFF" fill-rule="nonzero">
+                                                                <g transform="translate(1716.000000, 291.000000)">
+                                                                    <g transform="translate(0.000000, 148.000000)">
+                                                                        <path
+                                                                            d="M46.7199583,10.7414583 L40.8449583,0.949791667 C40.4909749,0.360605034 39.8540131,0 39.1666667,0 L7.83333333,0 C7.1459869,0 6.50902508,0.360605034 6.15504167,0.949791667 L0.280041667,10.7414583 C0.0969176761,11.0460037 -1.23209662e-05,11.3946378 -1.23209662e-05,11.75 C-0.00758042603,16.0663731 3.48367543,19.5725301 7.80004167,19.5833333 L7.81570833,19.5833333 C9.75003686,19.5882688 11.6168794,18.8726691 13.0522917,17.5760417 C16.0171492,20.2556967 20.5292675,20.2556967 23.494125,17.5760417 C26.4604562,20.2616016 30.9794188,20.2616016 33.94575,17.5760417 C36.2421905,19.6477597 39.5441143,20.1708521 42.3684437,18.9103691 C45.1927731,17.649886 47.0084685,14.8428276 47.0000295,11.75 C47.0000295,11.3946378 46.9030823,11.0460037 46.7199583,10.7414583 Z"
+                                                                            opacity="0.598981585">
+                                                                        </path>
+                                                                        <path
+                                                                            d="M39.198,22.4912623 C37.3776246,22.4928106 35.5817531,22.0149171 33.951625,21.0951667 L33.92225,21.1107282 C31.1430221,22.6838032 27.9255001,22.9318916 24.9844167,21.7998837 C24.4750389,21.605469 23.9777983,21.3722567 23.4960833,21.1018359 L23.4745417,21.1129513 C20.6961809,22.6871153 17.4786145,22.9344611 14.5386667,21.7998837 C14.029926,21.6054643 13.533337,21.3722507 13.0522917,21.1018359 C11.4250962,22.0190609 9.63246555,22.4947009 7.81570833,22.4912623 C7.16510551,22.4842162 6.51607673,22.4173045 5.875,22.2911849 L5.875,44.7220845 C5.875,45.9498589 6.7517757,46.9451667 7.83333333,46.9451667 L19.5833333,46.9451667 L19.5833333,33.6066734 L27.4166667,33.6066734 L27.4166667,46.9451667 L39.1666667,46.9451667 C40.2482243,46.9451667 41.125,45.9498589 41.125,44.7220845 L41.125,22.2822926 C40.4887822,22.4116582 39.8442868,22.4815492 39.198,22.4912623 Z">
+                                                                        </path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            Standar Pelayanan
+                                        </div>
+                                        <a href="./pages/coworking.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Profile Sekolah</span>
+                                        </a>
+                                        <a href="./pages/rental.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Kepala Sekolah</span>
+                                        </a>
+                                        <a href="./pages/case-study.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Peta &amp; Denah Sekolah</span>
+                                        </a>
+                                        <a href="./pages/case-study.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Prestasi</span>
+                                        </a>
+                                        <a href="./pages/case-study.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Sejarah</span>
+                                        </a>
+                                        <a href="./pages/case-study.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Visi Misi</span>
+                                        </a>
+                                        <a href="./pages/case-study.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Guru</span>
+                                        </a>
+                                        <a href="./pages/case-study.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Galeri</span>
+                                        </a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <a href="./pages/coworking.html" role="button"
+                                        class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                                        aria-expanded="false">
+                                        TALENTA
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <a class="navbar-brand font-weight-bolder" href="index.html" rel="tooltip"
+                                title="Puast Prestasi Nasional" data-placement="bottom">
+                                <img src="./assets/img/logos/logo-puspresnas.svg" alt="Puast Prestasi Nasional"
+                                    style="width: 100px;">
+                            </a>
+
+                            <ul class="navbar-nav navbar-nav-hover mx-auto">
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <a role="button"
+                                        class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                                        id="dropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                                        MTN
+                                        <img src="./assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1">
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-animation dropdown mt-0 mt-lg-3 p-3 border-radius-xl"
+                                        aria-labelledby="dropdownMenu">
+                                        <div
+                                            class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center px-0">
+                                            <div class="d-inline-block">
+                                                <div
+                                                    class="icon icon-shape icon-xs border-radius-md bg-gradient-primary text-center me-2 d-flex align-items-center justify-content-center">
+                                                    <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <title>shop </title>
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <g transform="translate(-1716.000000, -439.000000)"
+                                                                fill="#FFFFFF" fill-rule="nonzero">
+                                                                <g transform="translate(1716.000000, 291.000000)">
+                                                                    <g transform="translate(0.000000, 148.000000)">
+                                                                        <path
+                                                                            d="M46.7199583,10.7414583 L40.8449583,0.949791667 C40.4909749,0.360605034 39.8540131,0 39.1666667,0 L7.83333333,0 C7.1459869,0 6.50902508,0.360605034 6.15504167,0.949791667 L0.280041667,10.7414583 C0.0969176761,11.0460037 -1.23209662e-05,11.3946378 -1.23209662e-05,11.75 C-0.00758042603,16.0663731 3.48367543,19.5725301 7.80004167,19.5833333 L7.81570833,19.5833333 C9.75003686,19.5882688 11.6168794,18.8726691 13.0522917,17.5760417 C16.0171492,20.2556967 20.5292675,20.2556967 23.494125,17.5760417 C26.4604562,20.2616016 30.9794188,20.2616016 33.94575,17.5760417 C36.2421905,19.6477597 39.5441143,20.1708521 42.3684437,18.9103691 C45.1927731,17.649886 47.0084685,14.8428276 47.0000295,11.75 C47.0000295,11.3946378 46.9030823,11.0460037 46.7199583,10.7414583 Z"
+                                                                            opacity="0.598981585">
+                                                                        </path>
+                                                                        <path
+                                                                            d="M39.198,22.4912623 C37.3776246,22.4928106 35.5817531,22.0149171 33.951625,21.0951667 L33.92225,21.1107282 C31.1430221,22.6838032 27.9255001,22.9318916 24.9844167,21.7998837 C24.4750389,21.605469 23.9777983,21.3722567 23.4960833,21.1018359 L23.4745417,21.1129513 C20.6961809,22.6871153 17.4786145,22.9344611 14.5386667,21.7998837 C14.029926,21.6054643 13.533337,21.3722507 13.0522917,21.1018359 C11.4250962,22.0190609 9.63246555,22.4947009 7.81570833,22.4912623 C7.16510551,22.4842162 6.51607673,22.4173045 5.875,22.2911849 L5.875,44.7220845 C5.875,45.9498589 6.7517757,46.9451667 7.83333333,46.9451667 L19.5833333,46.9451667 L19.5833333,33.6066734 L27.4166667,33.6066734 L27.4166667,46.9451667 L39.1666667,46.9451667 C40.2482243,46.9451667 41.125,45.9498589 41.125,44.7220845 L41.125,22.2822926 C40.4887822,22.4116582 39.8442868,22.4815492 39.198,22.4912623 Z">
+                                                                        </path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            Manajemen Talenta Nasional
+                                        </div>
+                                        <a href="./tentang-mnt.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Tentang MTN</span>
+                                        </a>
+                                        <a href="./dasbor-talenta.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Dasbor Talenta</span>
+                                        </a>
+                                        <a href="./e-sertifikat.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">E-Sertifikat</span>
+                                        </a>
+                                        <a href="./kurasi-talenta.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Kurasi Talenta</span>
+                                        </a>
+                                        <a href="./simt.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">SIMT</span>
+                                        </a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <a role="button"
+                                        class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                                        id="dropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                                        MEDIA
+                                        <img src="./assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1">
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-animation dropdown mt-0 mt-lg-3 p-3 border-radius-xl"
+                                        aria-labelledby="dropdownMenu">
+                                        <div
+                                            class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center px-0">
+                                            <div class="d-inline-block">
+                                                <div
+                                                    class="icon icon-shape icon-xs border-radius-md bg-gradient-primary text-center me-2 d-flex align-items-center justify-content-center">
+                                                    <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <title>shop </title>
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <g transform="translate(-1716.000000, -439.000000)"
+                                                                fill="#FFFFFF" fill-rule="nonzero">
+                                                                <g transform="translate(1716.000000, 291.000000)">
+                                                                    <g transform="translate(0.000000, 148.000000)">
+                                                                        <path
+                                                                            d="M46.7199583,10.7414583 L40.8449583,0.949791667 C40.4909749,0.360605034 39.8540131,0 39.1666667,0 L7.83333333,0 C7.1459869,0 6.50902508,0.360605034 6.15504167,0.949791667 L0.280041667,10.7414583 C0.0969176761,11.0460037 -1.23209662e-05,11.3946378 -1.23209662e-05,11.75 C-0.00758042603,16.0663731 3.48367543,19.5725301 7.80004167,19.5833333 L7.81570833,19.5833333 C9.75003686,19.5882688 11.6168794,18.8726691 13.0522917,17.5760417 C16.0171492,20.2556967 20.5292675,20.2556967 23.494125,17.5760417 C26.4604562,20.2616016 30.9794188,20.2616016 33.94575,17.5760417 C36.2421905,19.6477597 39.5441143,20.1708521 42.3684437,18.9103691 C45.1927731,17.649886 47.0084685,14.8428276 47.0000295,11.75 C47.0000295,11.3946378 46.9030823,11.0460037 46.7199583,10.7414583 Z"
+                                                                            opacity="0.598981585">
+                                                                        </path>
+                                                                        <path
+                                                                            d="M39.198,22.4912623 C37.3776246,22.4928106 35.5817531,22.0149171 33.951625,21.0951667 L33.92225,21.1107282 C31.1430221,22.6838032 27.9255001,22.9318916 24.9844167,21.7998837 C24.4750389,21.605469 23.9777983,21.3722567 23.4960833,21.1018359 L23.4745417,21.1129513 C20.6961809,22.6871153 17.4786145,22.9344611 14.5386667,21.7998837 C14.029926,21.6054643 13.533337,21.3722507 13.0522917,21.1018359 C11.4250962,22.0190609 9.63246555,22.4947009 7.81570833,22.4912623 C7.16510551,22.4842162 6.51607673,22.4173045 5.875,22.2911849 L5.875,44.7220845 C5.875,45.9498589 6.7517757,46.9451667 7.83333333,46.9451667 L19.5833333,46.9451667 L19.5833333,33.6066734 L27.4166667,33.6066734 L27.4166667,46.9451667 L39.1666667,46.9451667 C40.2482243,46.9451667 41.125,45.9498589 41.125,44.7220845 L41.125,22.2822926 C40.4887822,22.4116582 39.8442868,22.4815492 39.198,22.4912623 Z">
+                                                                        </path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            Media
+                                        </div>
+                                        <a href="./wara-wara.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Wara - Wara</span>
+                                        </a>
+                                        <a href="./galeri.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Galeri</span>
+                                        </a>
+                                        <a href="./video.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Video</span>
+                                        </a>
+                                        <a href="./poster.html" class="dropdown-item border-radius-md">
+                                            <span class="ps-3">Poster</span>
+                                        </a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <a href="./pages/coworking.html" role="button"
+                                        class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                                        aria-expanded="false">
+                                        BEASISWA
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <a href="./pages/coworking.html" role="button"
+                                        class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                                        aria-expanded="false">
+                                        KONTAK
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                    </a><a data-v-1d5a3b76="" href="/about/muhaimin-iskandar"
-                        class="cursor-pointer flex justify-between items-center py-[8px] border-b gap-[12px]"
-                        rel="noreferrer"><img data-v-1d5a3b76=""
-                            src="data:image/webp;base64,UklGRvgFAABXRUJQVlA4WAoAAAAQAAAAWQAAWQAAQUxQSJAAAAABZ2CQbeTgjeBmcG/0ERHRp4ydwk21bcty/zgbAewLQBGHCKwOAQjh2xfh32B0t7fVP/EE4ET0fwKA3Ppjv99VYkTd2zSnscjGVGtA23STcBWq475Cu9jElLMXqfxNavCW8l+p0P7y/0jt3lL+IVU/S5VnUmn3FdrFuAnVoSOUArYyNQD3EvGxCG71FQi7AQBWUDggQgUAABAaAJ0BKloAWgA+kUCZSSWjoiEp1GzIsBIJZgDL2IDID9pzKnMMdF8yN9t2PMB+y3rCejzzgOpJ3mz90vRJzW7qK5HtupcLLP0zeMTlYPoxYkKUOQWo2g/3pyczdVv/u8nJOL0d2Pf7b35cGtQtOy0ZAIC+HVJLoN4Tdmvx4mIia+uhvulw4cD1+I9m3duJsHUqMXzthkQMhkUi0XV+NmrvyOiFR9utaRi5JXgjggZZBmdHE8NAiTrPZ+fM9221MsQ4F+9VsWTBdTKJiCGpyriYS5UN7B7iU4AA/sq/UonuU18sC3WrWjvxKTujNOxIonaMTjKJZA9AumVRir/ocDB7/3Qfgb4aPfz5Hw84uKR5e+4D1hYA6qQTcJZRhvb/zTo+Hg7et3kxUx8LTKREP2Hxzg7rkR+M3stBbO2BeqGT+LIKh33Lks9Q/c6DfA5JnyMb4/UaJxGl/3WdqVSSukHsfgDGVOQ2Otl17tdSItPluwYS6cVj/rgM14TVPSu/hrsAd5ZvZuyUV6KWM8NIKQ/Yb8bg/gPkV4g01ckEz58smcj0oEWJ0yke5dfSR7ZuREGWY8LgR0EaptCBISeLfC37rooxQ6f9CzQLraANKfkW5bm14uheRsZbrc6kHJ4sfcoyrjH5tkEYsMwuywYr9w4OIyoPHVyi7+zVYMdyHMQBjcnsI9eJVwP5azj6xRCGxqRG303Gj2OCN2FyCZ4U2lzLDU0cI1WUER7pIkHm8laT95+rBe8zbhR2Sj5bodm/cUIGL+tZ3IHXuK1y0BjMHfNZx6a0Qd3WRddTkiFy+cZf149D40zSgLGmt1I5mvcJjZtXEaGhDElfQQjEMAXfc4UAvLhYbh2UArn1gyNCYUhYPcLbiXlxNPXDl4kIYUPa5SmYvivnVgNxehioDBrqfpRYBkyk2i+wGC5SEXa2Z23OGBZAHjWgmvs3OPduKs4KnTUJLB9N3Mj9eHfQjjgRuDTVZL3pq5A9KZQUkBoC8jI0LjYRHoukw2BWLuNha7L+yBk2u0vFiN/YzmjOd6XFXNJXen0Um7IgvRPoo+FbK/d3VMNztJeJDnc+eBoDXgukiJr2PRytRVjuUe5WJchqJ1uWHpsBhdZXcAMemcN4YeoVtATRYy19OG+5FwxblTqBfWvna19Nd1kdrigAZ0HK+Pmx7o+8akE5C/h8zGUud/rPhyID1l6aRMTLnZj1ub/RZQrcCkF+Z2gLjM5p0txnW+tgYWT0qDRjpzD9o3ejCI/GJez6nOr1p7kLW3tS4V95slChEqhY+lfa7NTLyd0SI+dUAA7yhAYnBHdJv6nopt1SWkNBpk2lgJB+H6gQvC+ErlyFa0b1Dfkr2wpZ+mil9IZ+hXCfD8CbKcs689qa2eZIyGJmnhrNjuogQ8efEzs2b7pLUmnyOZElNqHULT5ixxs7ImnRNMijRp6lOd+8rn6kgHkAPF1HHB8T4+B2g3QfDzzDiUbIaMnAbjVC2Qafr45zFvMk/CAMadDmbeNz+l/hvTGXG/n8mPK0CEy4GMrFhyLr0wQUM61J1b44bQtaGJPeBKmrkvn/p4p4AeJcytrX8AapnTiTz3UMHzUyII2lIpfRH9K/xPelGP48uR+V53MbyvHXTejzPnSUdqF3wb/FPr1uSAOjDgrJKM/uMCeImQnvEkXmN/4MjhVI23R+SX+K21Z0HptJ+p9q6lIcshB0UmW80itjCF988qv6itpmT7avpGfIlHhrnejk+/XOREqE+4quQWnWknwD8ZPzFcgHxkIOSGttyM4IVRhZQX2z+AAA"
-                            alt="Avatar dropdown cawapres" loading="lazy" width="70" height="70">
-                        <div data-v-1d5a3b76="" class="flex flex-col"><span data-v-1d5a3b76=""
-                                class="w-full font-bold">Kenali Muhaimin</span><span data-v-1d5a3b76=""
-                                class="w-full text-[#556276]">Mari lebih mengenal cawapres kita untuk masa depan
-                                RI</span></div>
-                    </a></div>
+                    </div>
+                </nav>
+
             </div>
-        </h2><a data-v-1d5a3b76="" href="https://kawalamin.com" rel="noreferrer" target="_blank"
-            class="cursor-pointer flex justify-between items-center py-[8px]"> Kawal AMIN </a><a data-v-1d5a3b76=""
-            href="/lapor"
-            class="cursor-pointer flex justify-between items-center py-[8px] text-red-500 font-medium tracking-wider"
-            rel="noreferrer"><span data-v-1d5a3b76="" style="text-shadow: rgba(128, 0, 0, 0.133) 0px 0px 3px;"> LAPOR
-            </span></a>
-        <div data-v-1d5a3b76="" class="main-logo relative"><img data-v-1d5a3b76=""
-                class="cursor-pointer main-logo-0 opacity-1"
-                src="data:image/webp;base64,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"
-                width="120" height="57" alt="main logo"><img data-v-1d5a3b76=""
-                class="cursor-pointer main-logo-1 opacity-0"
-                src="data:image/webp;base64,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"
-                width="120" height="57" alt="main logo"></div><a data-v-1d5a3b76="" href="/timnas"
-            class="cursor-pointer flex justify-between items-center py-[8px]" rel="noreferrer"> Timnas </a>
-        <h2 data-v-1d5a3b76="" class="cursor-pointer">
-            <div data-v-1d5a3b76="" class="relative"><button data-v-1d5a3b76="" type="button"
-                    class="flex items-center p-2 gap-[4px]"><span data-v-1d5a3b76="" class="mr-1">Program
-                        Kerja</span><img data-v-1d5a3b76=""
-                        src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M12%202.25C10.0716%202.25%208.18657%202.82183%206.58319%203.89317C4.97981%204.96451%203.73013%206.48726%202.99217%208.26884C2.25422%2010.0504%202.06113%2012.0108%202.43734%2013.9021C2.81355%2015.7934%203.74214%2017.5307%205.10571%2018.8943C6.46927%2020.2579%208.20655%2021.1865%2010.0979%2021.5627C11.9892%2021.9389%2013.9496%2021.7458%2015.7312%2021.0078C17.5127%2020.2699%2019.0355%2019.0202%2020.1068%2017.4168C21.1782%2015.8134%2021.75%2013.9284%2021.75%2012C21.7473%209.41498%2020.7192%206.93661%2018.8913%205.10872C17.0634%203.28084%2014.585%202.25273%2012%202.25ZM12%2020.25C10.3683%2020.25%208.77325%2019.7661%207.41654%2018.8596C6.05984%2017.9531%205.00241%2016.6646%204.37799%2015.1571C3.75357%2013.6496%203.59019%2011.9908%203.90852%2010.3905C4.22685%208.79016%205.01258%207.32015%206.16637%206.16637C7.32015%205.01259%208.79016%204.22685%2010.3905%203.90852C11.9908%203.59019%2013.6496%203.75357%2015.1571%204.37799C16.6646%205.00242%2017.9531%206.05984%2018.8596%207.41655C19.7661%208.77325%2020.25%2010.3683%2020.25%2012C20.2475%2014.1873%2019.3775%2016.2843%2017.8309%2017.8309C16.2843%2019.3775%2014.1873%2020.2475%2012%2020.25ZM14.7806%2011.4694C14.8504%2011.539%2014.9057%2011.6217%2014.9434%2011.7128C14.9812%2011.8038%2015.0006%2011.9014%2015.0006%2012C15.0006%2012.0986%2014.9812%2012.1962%2014.9434%2012.2872C14.9057%2012.3783%2014.8504%2012.461%2014.7806%2012.5306L11.0306%2016.2806C10.9609%2016.3503%2010.8782%2016.4056%2010.7872%2016.4433C10.6961%2016.481%2010.5985%2016.5004%2010.5%2016.5004C10.4015%2016.5004%2010.3039%2016.481%2010.2128%2016.4433C10.1218%2016.4056%2010.0391%2016.3503%209.96937%2016.2806C9.89969%2016.2109%209.84441%2016.1282%209.8067%2016.0372C9.76899%2015.9461%209.74958%2015.8485%209.74958%2015.75C9.74958%2015.6515%209.76899%2015.5539%209.8067%2015.4628C9.84441%2015.3718%209.89969%2015.2891%209.96937%2015.2194L13.1897%2012L9.96937%208.78063C9.82864%208.63989%209.74958%208.44902%209.74958%208.25C9.74958%208.05098%209.82864%207.86011%209.96937%207.71937C10.1101%207.57864%2010.301%207.49958%2010.5%207.49958C10.699%207.49958%2010.8899%207.57864%2011.0306%207.71937L14.7806%2011.4694Z'%20fill='%23282963'/%3e%3c/svg%3e"
-                        alt="icon arrow circle" class="rotate-90"></button>
-                <div data-v-1d5a3b76="" class="w-[324px] bg-transparent pt-[50px] top-0 absolute right-[-50%]"
-                    style="display: none;"></div>
-                <div data-v-1d5a3b76=""
-                    class="absolute right-[-50%] p-[16px] mt-2 rounded-md shadow-xl max-w-[324px] w-[324px] bg-white"
-                    style="box-shadow: rgba(66, 78, 95, 0.24) 0px 24px 100px -12px; display: none;">
-                    <div data-v-1d5a3b76="" class="flex flex-col gap-[12px]"><a data-v-1d5a3b76="" aria-current="page"
-                            href="/?search=MISI01"
-                            class="router-link-active router-link-exact-active mission gap-[12px] flex pb-[12px] border-b"
-                            id="0"><img data-v-1d5a3b76="" width="24" height="24" id="misi1"
-                                src="https://aminajadulu.com/assets/img-misi-1-XwPBjb-J.webp" alt="MISI 01"
-                                class="rounded-[8px] cursor-pointer z-[1] w-full"
-                                style="max-width: 56px; max-height: 48px; width: 100%; height: 100%; object-fit: cover;">
-                            <div data-v-1d5a3b76="" class="flex flex-col gap-[2px] w-full"><span data-v-1d5a3b76=""
-                                    style="color: rgb(25, 34, 51); font-family: Inter; font-size: 16px; font-style: normal; font-weight: 600; line-height: 24px;">Misi
-                                    01</span><span data-v-1d5a3b76="" class="flex w-full"
-                                    style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; align-self: stretch; overflow: hidden; color: rgb(85, 98, 118); text-overflow: ellipsis; font-family: Inter; font-size: 12px; font-style: normal; font-weight: 400; line-height: 16px;">Menyediakan
-                                    Kebutuhan Pokok Murah melalui Kemandirian Pangan, Ketahanan Energi, dan Kedaulatan
-                                    Air</span></div><img data-v-1d5a3b76=""
-                                src="data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.354%208.35354L6.35403%2013.3535C6.30757%2013.4%206.25242%2013.4368%206.19173%2013.462C6.13103%2013.4871%206.06598%2013.5001%206.00028%2013.5001C5.93458%2013.5001%205.86953%2013.4871%205.80883%2013.462C5.74813%2013.4368%205.69298%2013.4%205.64653%2013.3535C5.60007%2013.3071%205.56322%2013.2519%205.53808%2013.1912C5.51294%2013.1305%205.5%2013.0655%205.5%2012.9998C5.5%2012.9341%205.51294%2012.869%205.53808%2012.8083C5.56322%2012.7476%205.60007%2012.6925%205.64653%2012.646L10.2934%207.99979L5.64653%203.35354C5.55271%203.25972%205.5%203.13247%205.5%202.99979C5.5%202.86711%205.55271%202.73986%205.64653%202.64604C5.74035%202.55222%205.8676%202.49951%206.00028%202.49951C6.13296%202.49951%206.26021%202.55222%206.35403%202.64604L11.354%207.64604C11.4005%207.69248%2011.4374%207.74762%2011.4626%207.80832C11.4877%207.86902%2011.5007%207.93408%2011.5007%207.99979C11.5007%208.0655%2011.4877%208.13056%2011.4626%208.19126C11.4374%208.25196%2011.4005%208.3071%2011.354%208.35354Z'%20fill='%23192233'/%3e%3c/svg%3e"
-                                alt="icon chevron right">
-                        </a><a data-v-1d5a3b76="" aria-current="page" href="/?search=MISI02"
-                            class="router-link-active router-link-exact-active mission gap-[12px] flex pb-[12px] border-b"
-                            id="1"><img data-v-1d5a3b76="" width="24" height="24" id="misi1"
-                                src="https://aminajadulu.com/assets/img-misi-2-xrXhCpBF.webp" alt="MISI 02"
-                                class="rounded-[8px] cursor-pointer z-[1] w-full"
-                                style="max-width: 56px; max-height: 48px; width: 100%; height: 100%; object-fit: cover;">
-                            <div data-v-1d5a3b76="" class="flex flex-col gap-[2px] w-full"><span data-v-1d5a3b76=""
-                                    style="color: rgb(25, 34, 51); font-family: Inter; font-size: 16px; font-style: normal; font-weight: 600; line-height: 24px;">Misi
-                                    02</span><span data-v-1d5a3b76="" class="flex w-full"
-                                    style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; align-self: stretch; overflow: hidden; color: rgb(85, 98, 118); text-overflow: ellipsis; font-family: Inter; font-size: 12px; font-style: normal; font-weight: 400; line-height: 16px;">Mengentaskan
-                                    Kemiskinan melalui Peluang Usaha dan Lapangan Kerja Baru</span></div><img
-                                data-v-1d5a3b76=""
-                                src="data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.354%208.35354L6.35403%2013.3535C6.30757%2013.4%206.25242%2013.4368%206.19173%2013.462C6.13103%2013.4871%206.06598%2013.5001%206.00028%2013.5001C5.93458%2013.5001%205.86953%2013.4871%205.80883%2013.462C5.74813%2013.4368%205.69298%2013.4%205.64653%2013.3535C5.60007%2013.3071%205.56322%2013.2519%205.53808%2013.1912C5.51294%2013.1305%205.5%2013.0655%205.5%2012.9998C5.5%2012.9341%205.51294%2012.869%205.53808%2012.8083C5.56322%2012.7476%205.60007%2012.6925%205.64653%2012.646L10.2934%207.99979L5.64653%203.35354C5.55271%203.25972%205.5%203.13247%205.5%202.99979C5.5%202.86711%205.55271%202.73986%205.64653%202.64604C5.74035%202.55222%205.8676%202.49951%206.00028%202.49951C6.13296%202.49951%206.26021%202.55222%206.35403%202.64604L11.354%207.64604C11.4005%207.69248%2011.4374%207.74762%2011.4626%207.80832C11.4877%207.86902%2011.5007%207.93408%2011.5007%207.99979C11.5007%208.0655%2011.4877%208.13056%2011.4626%208.19126C11.4374%208.25196%2011.4005%208.3071%2011.354%208.35354Z'%20fill='%23192233'/%3e%3c/svg%3e"
-                                alt="icon chevron right">
-                        </a><a data-v-1d5a3b76="" aria-current="page" href="/?search=MISI03"
-                            class="router-link-active router-link-exact-active mission gap-[12px] flex pb-[12px] border-b"
-                            id="2"><img data-v-1d5a3b76="" width="24" height="24" id="misi1"
-                                src="https://aminajadulu.com/assets/img-misi-3-6I4tzay1.webp" alt="MISI 03"
-                                class="rounded-[8px] cursor-pointer z-[1] w-full"
-                                style="max-width: 56px; max-height: 48px; width: 100%; height: 100%; object-fit: cover;">
-                            <div data-v-1d5a3b76="" class="flex flex-col gap-[2px] w-full"><span data-v-1d5a3b76=""
-                                    style="color: rgb(25, 34, 51); font-family: Inter; font-size: 16px; font-style: normal; font-weight: 600; line-height: 24px;">Misi
-                                    03</span><span data-v-1d5a3b76="" class="flex w-full"
-                                    style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; align-self: stretch; overflow: hidden; color: rgb(85, 98, 118); text-overflow: ellipsis; font-family: Inter; font-size: 12px; font-style: normal; font-weight: 400; line-height: 16px;">Mewujudkan
-                                    Keadilan Ekologis Berkelanjutan untuk Generasi Mendatang</span></div><img
-                                data-v-1d5a3b76=""
-                                src="data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.354%208.35354L6.35403%2013.3535C6.30757%2013.4%206.25242%2013.4368%206.19173%2013.462C6.13103%2013.4871%206.06598%2013.5001%206.00028%2013.5001C5.93458%2013.5001%205.86953%2013.4871%205.80883%2013.462C5.74813%2013.4368%205.69298%2013.4%205.64653%2013.3535C5.60007%2013.3071%205.56322%2013.2519%205.53808%2013.1912C5.51294%2013.1305%205.5%2013.0655%205.5%2012.9998C5.5%2012.9341%205.51294%2012.869%205.53808%2012.8083C5.56322%2012.7476%205.60007%2012.6925%205.64653%2012.646L10.2934%207.99979L5.64653%203.35354C5.55271%203.25972%205.5%203.13247%205.5%202.99979C5.5%202.86711%205.55271%202.73986%205.64653%202.64604C5.74035%202.55222%205.8676%202.49951%206.00028%202.49951C6.13296%202.49951%206.26021%202.55222%206.35403%202.64604L11.354%207.64604C11.4005%207.69248%2011.4374%207.74762%2011.4626%207.80832C11.4877%207.86902%2011.5007%207.93408%2011.5007%207.99979C11.5007%208.0655%2011.4877%208.13056%2011.4626%208.19126C11.4374%208.25196%2011.4005%208.3071%2011.354%208.35354Z'%20fill='%23192233'/%3e%3c/svg%3e"
-                                alt="icon chevron right">
-                        </a><a data-v-1d5a3b76="" aria-current="page" href="/?search=MISI04"
-                            class="router-link-active router-link-exact-active mission gap-[12px] flex pb-[12px] border-b"
-                            id="3"><img data-v-1d5a3b76="" width="24" height="24" id="misi1"
-                                src="https://aminajadulu.com/assets/img-misi-4-ETDCAm7-.webp" alt="MISI 04"
-                                class="rounded-[8px] cursor-pointer z-[1] w-full"
-                                style="max-width: 56px; max-height: 48px; width: 100%; height: 100%; object-fit: cover;">
-                            <div data-v-1d5a3b76="" class="flex flex-col gap-[2px] w-full"><span data-v-1d5a3b76=""
-                                    style="color: rgb(25, 34, 51); font-family: Inter; font-size: 16px; font-style: normal; font-weight: 600; line-height: 24px;">Misi
-                                    04</span><span data-v-1d5a3b76="" class="flex w-full"
-                                    style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; align-self: stretch; overflow: hidden; color: rgb(85, 98, 118); text-overflow: ellipsis; font-family: Inter; font-size: 12px; font-style: normal; font-weight: 400; line-height: 16px;">Membangun
-                                    Kota dan Desa Berbasis Manusia</span></div><img data-v-1d5a3b76=""
-                                src="data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.354%208.35354L6.35403%2013.3535C6.30757%2013.4%206.25242%2013.4368%206.19173%2013.462C6.13103%2013.4871%206.06598%2013.5001%206.00028%2013.5001C5.93458%2013.5001%205.86953%2013.4871%205.80883%2013.462C5.74813%2013.4368%205.69298%2013.4%205.64653%2013.3535C5.60007%2013.3071%205.56322%2013.2519%205.53808%2013.1912C5.51294%2013.1305%205.5%2013.0655%205.5%2012.9998C5.5%2012.9341%205.51294%2012.869%205.53808%2012.8083C5.56322%2012.7476%205.60007%2012.6925%205.64653%2012.646L10.2934%207.99979L5.64653%203.35354C5.55271%203.25972%205.5%203.13247%205.5%202.99979C5.5%202.86711%205.55271%202.73986%205.64653%202.64604C5.74035%202.55222%205.8676%202.49951%206.00028%202.49951C6.13296%202.49951%206.26021%202.55222%206.35403%202.64604L11.354%207.64604C11.4005%207.69248%2011.4374%207.74762%2011.4626%207.80832C11.4877%207.86902%2011.5007%207.93408%2011.5007%207.99979C11.5007%208.0655%2011.4877%208.13056%2011.4626%208.19126C11.4374%208.25196%2011.4005%208.3071%2011.354%208.35354Z'%20fill='%23192233'/%3e%3c/svg%3e"
-                                alt="icon chevron right">
-                        </a><a data-v-1d5a3b76="" aria-current="page" href="/?search=MISI05"
-                            class="router-link-active router-link-exact-active mission gap-[12px] flex pb-[12px] border-b"
-                            id="4"><img data-v-1d5a3b76="" width="24" height="24" id="misi1"
-                                src="https://aminajadulu.com/assets/img-misi-5-Vwjofbnf.webp" alt="MISI 05"
-                                class="rounded-[8px] cursor-pointer z-[1] w-full"
-                                style="max-width: 56px; max-height: 48px; width: 100%; height: 100%; object-fit: cover;">
-                            <div data-v-1d5a3b76="" class="flex flex-col gap-[2px] w-full"><span data-v-1d5a3b76=""
-                                    style="color: rgb(25, 34, 51); font-family: Inter; font-size: 16px; font-style: normal; font-weight: 600; line-height: 24px;">Misi
-                                    05</span><span data-v-1d5a3b76="" class="flex w-full"
-                                    style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; align-self: stretch; overflow: hidden; color: rgb(85, 98, 118); text-overflow: ellipsis; font-family: Inter; font-size: 12px; font-style: normal; font-weight: 400; line-height: 16px;">Mewujudkan
-                                    Masyarakat Sehat, Cerdas, Produktif, Berakhlak, dan Berbudaya</span></div><img
-                                data-v-1d5a3b76=""
-                                src="data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.354%208.35354L6.35403%2013.3535C6.30757%2013.4%206.25242%2013.4368%206.19173%2013.462C6.13103%2013.4871%206.06598%2013.5001%206.00028%2013.5001C5.93458%2013.5001%205.86953%2013.4871%205.80883%2013.462C5.74813%2013.4368%205.69298%2013.4%205.64653%2013.3535C5.60007%2013.3071%205.56322%2013.2519%205.53808%2013.1912C5.51294%2013.1305%205.5%2013.0655%205.5%2012.9998C5.5%2012.9341%205.51294%2012.869%205.53808%2012.8083C5.56322%2012.7476%205.60007%2012.6925%205.64653%2012.646L10.2934%207.99979L5.64653%203.35354C5.55271%203.25972%205.5%203.13247%205.5%202.99979C5.5%202.86711%205.55271%202.73986%205.64653%202.64604C5.74035%202.55222%205.8676%202.49951%206.00028%202.49951C6.13296%202.49951%206.26021%202.55222%206.35403%202.64604L11.354%207.64604C11.4005%207.69248%2011.4374%207.74762%2011.4626%207.80832C11.4877%207.86902%2011.5007%207.93408%2011.5007%207.99979C11.5007%208.0655%2011.4877%208.13056%2011.4626%208.19126C11.4374%208.25196%2011.4005%208.3071%2011.354%208.35354Z'%20fill='%23192233'/%3e%3c/svg%3e"
-                                alt="icon chevron right">
-                        </a><a data-v-1d5a3b76="" aria-current="page" href="/?search=MISI06"
-                            class="router-link-active router-link-exact-active mission gap-[12px] flex pb-[12px] border-b"
-                            id="5"><img data-v-1d5a3b76="" width="24" height="24" id="misi1"
-                                src="https://aminajadulu.com/assets/img-misi-6-OgcVs1c5.webp" alt="MISI 06"
-                                class="rounded-[8px] cursor-pointer z-[1] w-full"
-                                style="max-width: 56px; max-height: 48px; width: 100%; height: 100%; object-fit: cover;">
-                            <div data-v-1d5a3b76="" class="flex flex-col gap-[2px] w-full"><span data-v-1d5a3b76=""
-                                    style="color: rgb(25, 34, 51); font-family: Inter; font-size: 16px; font-style: normal; font-weight: 600; line-height: 24px;">Misi
-                                    06</span><span data-v-1d5a3b76="" class="flex w-full"
-                                    style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; align-self: stretch; overflow: hidden; color: rgb(85, 98, 118); text-overflow: ellipsis; font-family: Inter; font-size: 12px; font-style: normal; font-weight: 400; line-height: 16px;">Mewujudkan
-                                    Keluarga Indonesia Sejahtera sebagai Sumber Kekuatan Bangsa</span></div><img
-                                data-v-1d5a3b76=""
-                                src="data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.354%208.35354L6.35403%2013.3535C6.30757%2013.4%206.25242%2013.4368%206.19173%2013.462C6.13103%2013.4871%206.06598%2013.5001%206.00028%2013.5001C5.93458%2013.5001%205.86953%2013.4871%205.80883%2013.462C5.74813%2013.4368%205.69298%2013.4%205.64653%2013.3535C5.60007%2013.3071%205.56322%2013.2519%205.53808%2013.1912C5.51294%2013.1305%205.5%2013.0655%205.5%2012.9998C5.5%2012.9341%205.51294%2012.869%205.53808%2012.8083C5.56322%2012.7476%205.60007%2012.6925%205.64653%2012.646L10.2934%207.99979L5.64653%203.35354C5.55271%203.25972%205.5%203.13247%205.5%202.99979C5.5%202.86711%205.55271%202.73986%205.64653%202.64604C5.74035%202.55222%205.8676%202.49951%206.00028%202.49951C6.13296%202.49951%206.26021%202.55222%206.35403%202.64604L11.354%207.64604C11.4005%207.69248%2011.4374%207.74762%2011.4626%207.80832C11.4877%207.86902%2011.5007%207.93408%2011.5007%207.99979C11.5007%208.0655%2011.4877%208.13056%2011.4626%208.19126C11.4374%208.25196%2011.4005%208.3071%2011.354%208.35354Z'%20fill='%23192233'/%3e%3c/svg%3e"
-                                alt="icon chevron right">
-                        </a><a data-v-1d5a3b76="" aria-current="page" href="/?search=MISI07"
-                            class="router-link-active router-link-exact-active mission gap-[12px] flex pb-[12px] border-b"
-                            id="6"><img data-v-1d5a3b76="" width="24" height="24" id="misi1"
-                                src="https://aminajadulu.com/assets/img-misi-7-ycJbxyVb.webp" alt="MISI 07"
-                                class="rounded-[8px] cursor-pointer z-[1] w-full"
-                                style="max-width: 56px; max-height: 48px; width: 100%; height: 100%; object-fit: cover;">
-                            <div data-v-1d5a3b76="" class="flex flex-col gap-[2px] w-full"><span data-v-1d5a3b76=""
-                                    style="color: rgb(25, 34, 51); font-family: Inter; font-size: 16px; font-style: normal; font-weight: 600; line-height: 24px;">Misi
-                                    07</span><span data-v-1d5a3b76="" class="flex w-full"
-                                    style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; align-self: stretch; overflow: hidden; color: rgb(85, 98, 118); text-overflow: ellipsis; font-family: Inter; font-size: 12px; font-style: normal; font-weight: 400; line-height: 16px;">Memperkuat
-                                    Pertahanan dan Keamanan, serta Tingkatkan Peran Kepemimpinan Indonesia</span></div>
-                            <img data-v-1d5a3b76=""
-                                src="data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.354%208.35354L6.35403%2013.3535C6.30757%2013.4%206.25242%2013.4368%206.19173%2013.462C6.13103%2013.4871%206.06598%2013.5001%206.00028%2013.5001C5.93458%2013.5001%205.86953%2013.4871%205.80883%2013.462C5.74813%2013.4368%205.69298%2013.4%205.64653%2013.3535C5.60007%2013.3071%205.56322%2013.2519%205.53808%2013.1912C5.51294%2013.1305%205.5%2013.0655%205.5%2012.9998C5.5%2012.9341%205.51294%2012.869%205.53808%2012.8083C5.56322%2012.7476%205.60007%2012.6925%205.64653%2012.646L10.2934%207.99979L5.64653%203.35354C5.55271%203.25972%205.5%203.13247%205.5%202.99979C5.5%202.86711%205.55271%202.73986%205.64653%202.64604C5.74035%202.55222%205.8676%202.49951%206.00028%202.49951C6.13296%202.49951%206.26021%202.55222%206.35403%202.64604L11.354%207.64604C11.4005%207.69248%2011.4374%207.74762%2011.4626%207.80832C11.4877%207.86902%2011.5007%207.93408%2011.5007%207.99979C11.5007%208.0655%2011.4877%208.13056%2011.4626%208.19126C11.4374%208.25196%2011.4005%208.3071%2011.354%208.35354Z'%20fill='%23192233'/%3e%3c/svg%3e"
-                                alt="icon chevron right">
-                        </a><a data-v-1d5a3b76="" aria-current="page" href="/?search=MISI08"
-                            class="router-link-active router-link-exact-active mission gap-[12px] flex pb-[12px] border-b"
-                            id="7"><img data-v-1d5a3b76="" width="24" height="24" id="misi1"
-                                src="https://aminajadulu.com/assets/img-misi-8-eYCYUR-j.webp" alt="MISI 08"
-                                class="rounded-[8px] cursor-pointer z-[1] w-full"
-                                style="max-width: 56px; max-height: 48px; width: 100%; height: 100%; object-fit: cover;">
-                            <div data-v-1d5a3b76="" class="flex flex-col gap-[2px] w-full"><span data-v-1d5a3b76=""
-                                    style="color: rgb(25, 34, 51); font-family: Inter; font-size: 16px; font-style: normal; font-weight: 600; line-height: 24px;">Misi
-                                    08</span><span data-v-1d5a3b76="" class="flex w-full"
-                                    style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; align-self: stretch; overflow: hidden; color: rgb(85, 98, 118); text-overflow: ellipsis; font-family: Inter; font-size: 12px; font-style: normal; font-weight: 400; line-height: 16px;">Memulihkan
-                                    Kualitas Hukum dan Demokrasi, serta Menyelenggarakan Pemerintahan yang Berpihak pada
-                                    Rakyat</span></div><img data-v-1d5a3b76=""
-                                src="data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.354%208.35354L6.35403%2013.3535C6.30757%2013.4%206.25242%2013.4368%206.19173%2013.462C6.13103%2013.4871%206.06598%2013.5001%206.00028%2013.5001C5.93458%2013.5001%205.86953%2013.4871%205.80883%2013.462C5.74813%2013.4368%205.69298%2013.4%205.64653%2013.3535C5.60007%2013.3071%205.56322%2013.2519%205.53808%2013.1912C5.51294%2013.1305%205.5%2013.0655%205.5%2012.9998C5.5%2012.9341%205.51294%2012.869%205.53808%2012.8083C5.56322%2012.7476%205.60007%2012.6925%205.64653%2012.646L10.2934%207.99979L5.64653%203.35354C5.55271%203.25972%205.5%203.13247%205.5%202.99979C5.5%202.86711%205.55271%202.73986%205.64653%202.64604C5.74035%202.55222%205.8676%202.49951%206.00028%202.49951C6.13296%202.49951%206.26021%202.55222%206.35403%202.64604L11.354%207.64604C11.4005%207.69248%2011.4374%207.74762%2011.4626%207.80832C11.4877%207.86902%2011.5007%207.93408%2011.5007%207.99979C11.5007%208.0655%2011.4877%208.13056%2011.4626%208.19126C11.4374%208.25196%2011.4005%208.3071%2011.354%208.35354Z'%20fill='%23192233'/%3e%3c/svg%3e"
-                                alt="icon chevron right">
-                        </a></div>
+        </div>
+    </div>
+
+    <header>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="page-header min-vh-75 m-3 border-radius-xl"
+                        style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/mark.jpg');">
+                        <span class="mask bg-gradient-dark"></span>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 my-auto">
+                                    <h4 class="text-white mb-0 fadeIn1 fadeInBottom">Pricing Plans</h4>
+                                    <h1 class="text-white fadeIn2 fadeInBottom">Work with the rockets</h1>
+                                    <p class="lead text-white opacity-8 fadeIn3 fadeInBottom">Wealth creation is an
+                                        evolutionarily recent positive-sum game. Status is an old zero-sum game. Those
+                                        attacking wealth creation are often just seeking status.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="page-header min-vh-75 m-3 border-radius-xl"
+                        style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/meeting.jpg');">
+                        <span class="mask bg-gradient-dark"></span>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 my-auto">
+                                    <h4 class="text-white mb-0 fadeIn1 fadeInBottom">Our Team</h4>
+                                    <h1 class="text-white fadeIn2 fadeInBottom">Work with the best</h1>
+                                    <p class="lead text-white opacity-8 fadeIn3 fadeInBottom">Free people make free
+                                        choices. Free choices mean you get unequal outcomes. You can have freedom, or
+                                        you can have equal outcomes. You can’t have both.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </h2>
-        <h2 data-v-1d5a3b76="" class="cursor-pointer">
-            <div data-v-1d5a3b76="" class="relative"><button data-v-1d5a3b76="" type="button"
-                    class="flex items-center p-2 gap-[4px]"><span data-v-1d5a3b76="" class="mr-1">Dukung AMIN</span><img
-                        data-v-1d5a3b76=""
-                        src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M12%202.25C10.0716%202.25%208.18657%202.82183%206.58319%203.89317C4.97981%204.96451%203.73013%206.48726%202.99217%208.26884C2.25422%2010.0504%202.06113%2012.0108%202.43734%2013.9021C2.81355%2015.7934%203.74214%2017.5307%205.10571%2018.8943C6.46927%2020.2579%208.20655%2021.1865%2010.0979%2021.5627C11.9892%2021.9389%2013.9496%2021.7458%2015.7312%2021.0078C17.5127%2020.2699%2019.0355%2019.0202%2020.1068%2017.4168C21.1782%2015.8134%2021.75%2013.9284%2021.75%2012C21.7473%209.41498%2020.7192%206.93661%2018.8913%205.10872C17.0634%203.28084%2014.585%202.25273%2012%202.25ZM12%2020.25C10.3683%2020.25%208.77325%2019.7661%207.41654%2018.8596C6.05984%2017.9531%205.00241%2016.6646%204.37799%2015.1571C3.75357%2013.6496%203.59019%2011.9908%203.90852%2010.3905C4.22685%208.79016%205.01258%207.32015%206.16637%206.16637C7.32015%205.01259%208.79016%204.22685%2010.3905%203.90852C11.9908%203.59019%2013.6496%203.75357%2015.1571%204.37799C16.6646%205.00242%2017.9531%206.05984%2018.8596%207.41655C19.7661%208.77325%2020.25%2010.3683%2020.25%2012C20.2475%2014.1873%2019.3775%2016.2843%2017.8309%2017.8309C16.2843%2019.3775%2014.1873%2020.2475%2012%2020.25ZM14.7806%2011.4694C14.8504%2011.539%2014.9057%2011.6217%2014.9434%2011.7128C14.9812%2011.8038%2015.0006%2011.9014%2015.0006%2012C15.0006%2012.0986%2014.9812%2012.1962%2014.9434%2012.2872C14.9057%2012.3783%2014.8504%2012.461%2014.7806%2012.5306L11.0306%2016.2806C10.9609%2016.3503%2010.8782%2016.4056%2010.7872%2016.4433C10.6961%2016.481%2010.5985%2016.5004%2010.5%2016.5004C10.4015%2016.5004%2010.3039%2016.481%2010.2128%2016.4433C10.1218%2016.4056%2010.0391%2016.3503%209.96937%2016.2806C9.89969%2016.2109%209.84441%2016.1282%209.8067%2016.0372C9.76899%2015.9461%209.74958%2015.8485%209.74958%2015.75C9.74958%2015.6515%209.76899%2015.5539%209.8067%2015.4628C9.84441%2015.3718%209.89969%2015.2891%209.96937%2015.2194L13.1897%2012L9.96937%208.78063C9.82864%208.63989%209.74958%208.44902%209.74958%208.25C9.74958%208.05098%209.82864%207.86011%209.96937%207.71937C10.1101%207.57864%2010.301%207.49958%2010.5%207.49958C10.699%207.49958%2010.8899%207.57864%2011.0306%207.71937L14.7806%2011.4694Z'%20fill='%23282963'/%3e%3c/svg%3e"
-                        alt="icon arrow circle" class="rotate-90"></button>
-                <div data-v-1d5a3b76="" class="w-full bg-transparent pt-[50px] top-0 absolute left-0"
-                    style="display: none;"></div>
-                <div data-v-1d5a3b76=""
-                    class="text-[#192233] absolute left-[-145px] z-[1] p-[16px] mt-2 rounded-md shadow-xl max-w-[340px] w-[340px] bg-white flex flex-col gap-[12px]"
-                    style="box-shadow: rgba(66, 78, 95, 0.24) 0px 24px 100px -12px; display: none;"><a
-                        class="cursor-pointer flex justify-between items-center py-[8px] border-b gap-[12px]"
-                        href="https://fitnahlagi.com" rel="noreferrer" target="_blank" data-v-1d5a3b76="">
-                        <div class="flex flex-col" data-v-1d5a3b76=""><span class="w-full" data-v-1d5a3b76="">Cek
-                                Fakta</span></div>
-                    </a><a class="cursor-pointer flex justify-between items-center py-[8px] border-b gap-[12px]"
-                        href="https://kawalamin.com/register/saksi" rel="noreferrer" target="_blank" data-v-1d5a3b76="">
-                        <div class="flex flex-col" data-v-1d5a3b76=""><span class="w-full" data-v-1d5a3b76="">Daftar
-                                Jadi Saksi</span></div>
-                    </a><a class="cursor-pointer flex justify-between items-center py-[8px] border-b gap-[12px]"
-                        href="https://tiktokers.aminajadulu.com" rel="noreferrer" target="_blank" data-v-1d5a3b76="">
-                        <div class="flex flex-col" data-v-1d5a3b76=""><span class="w-full" data-v-1d5a3b76="">AMIN-kan
-                                TikTok</span></div>
-                    </a><a class="cursor-pointer flex justify-between items-center py-[8px] border-b gap-[12px]"
-                        href="https://bersama.aminajadulu.com" rel="noreferrer" target="_blank" data-v-1d5a3b76="">
-                        <div class="flex flex-col" data-v-1d5a3b76=""><span class="w-full" data-v-1d5a3b76="">AMIN-kan
-                                WhatsApp</span></div>
-                    </a><a class="cursor-pointer flex justify-between items-center py-[8px] border-b gap-[12px]"
-                        href="https://jadwal.aminajadulu.com" rel="noreferrer" target="_blank" data-v-1d5a3b76="">
-                        <div class="flex flex-col" data-v-1d5a3b76=""><span class="w-full" data-v-1d5a3b76="">Jadwal
-                                Kampanye</span></div>
-                    </a></div>
+            <div class="min-vh-75 position-absolute w-100 top-0">
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon position-absolute bottom-50" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon position-absolute bottom-50" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
             </div>
-        </h2>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+
+                <section class="py-5">
+                    <div class="card card-plain card-blog mt-5">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="card-image position-relative border-radius-lg">
+                                    <div class="blur-shadow-image">
+                                        <img class="img border-radius-lg"
+                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-architecture.jpg"
+                                            alt="architecture">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 my-sm-auto mt-3 ms-sm-3">
+                                <h4>
+                                    <a href="javascript:;" class="text-dark">Rover raised to $65 million</a>
+                                </h4>
+                                <p>
+                                    Finding temporary housing for your dog should be as easy as renting an Airbnb.
+                                    That’s the idea behind Rover, which raised $65 million to expand its pet sitting <a
+                                        href="javascript:;"> Read More </a>
+                                </p>
+                                <div class="author">
+                                    <img src="../../assets/img/team-4.jpg" alt="team-4"
+                                        class="avatar avatar-sm shadow me-2">
+                                    <p class="my-auto">Katie Roof</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-plain card-blog mt-5">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="card-image position-relative border-radius-lg">
+                                    <div class="blur-shadow-image">
+                                        <img class="img border-radius-lg"
+                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-estate.jpg"
+                                            alt="estate">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 my-sm-auto mt-3 ms-sm-3">
+                                <h4>
+                                    <a href="javascript:;" class="text-dark">MateLabs mixes machine learning</a>
+                                </h4>
+                                <p>
+                                    If you’ve ever wanted to train a machine learning model and integrate it with IFTTT,
+                                    a new offering from MateLabs. MateVerse, a platform where novices can spin out
+                                    machine... <a href="javascript:;"> Read More </a>
+                                </p>
+                                <div class="author">
+                                    <img src="../../assets/img/team-3.jpg" alt="team-3"
+                                        class="avatar avatar-sm shadow me-2">
+                                    <p class="my-auto">John Mannes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-plain card-blog my-5">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="card-image position-relative border-radius-lg">
+                                    <div class="blur-shadow-image">
+                                        <img class="img border-radius-lg"
+                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-buildings.jpg"
+                                            alt="buildings">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 my-sm-auto mt-3 ms-sm-3">
+                                <h4>
+                                    <a href="javascript:;" class="text-dark">US venture investment tricks</a>
+                                </h4>
+                                <p>
+                                    Venture investment in U.S. startups rose sequentially in the second quarter of 2017,
+                                    boosted by large, late-stage financings and a few outsized early-stage rounds in
+                                    tech and healthcare.. <a href="javascript:;"> Read More </a>
+                                </p>
+                                <div class="author">
+                                    <img src="../../assets/img/team-2.jpg" alt="team-2"
+                                        class="avatar avatar-sm shadow me-2">
+                                    <p class="my-auto">Devin Coldewey</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="card card-blog card-background">
+                    <div class="full-background"
+                        style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desert.jpg')">
+                    </div>
+                    <div class="card-body body-left">
+                        <div class="content-left text-start">
+                            <h2 class="card-title text-white">Flexible office space means growing your team.</h2>
+                            <p class="card-description">Rather than worrying about switching offices every couple years,
+                                you can instead stay in the same location and grow-up from your shared coworking space
+                                to an office that takes up an entire floor.</p>
+                            <div class="author">
+                                <img src="../../assets/img/team-2.jpg" alt="..." class="avatar mr-2">
+                                <div class="name ms-2">
+                                    <span>Mathew Glock</span>
+                                    <div class="stats">
+                                        <small>Marketing Manager</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="py-5">
+                    <div class="card card-plain card-blog mt-5">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="card-image position-relative border-radius-lg">
+                                    <div class="blur-shadow-image">
+                                        <img class="img border-radius-lg"
+                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-architecture.jpg"
+                                            alt="architecture">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 my-sm-auto mt-3 ms-sm-3">
+                                <h4>
+                                    <a href="javascript:;" class="text-dark">Rover raised to $65 million</a>
+                                </h4>
+                                <p>
+                                    Finding temporary housing for your dog should be as easy as renting an Airbnb.
+                                    That’s the idea behind Rover, which raised $65 million to expand its pet sitting <a
+                                        href="javascript:;"> Read More </a>
+                                </p>
+                                <div class="author">
+                                    <img src="../../assets/img/team-4.jpg" alt="team-4"
+                                        class="avatar avatar-sm shadow me-2">
+                                    <p class="my-auto">Katie Roof</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-plain card-blog mt-5">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="card-image position-relative border-radius-lg">
+                                    <div class="blur-shadow-image">
+                                        <img class="img border-radius-lg"
+                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-estate.jpg"
+                                            alt="estate">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 my-sm-auto mt-3 ms-sm-3">
+                                <h4>
+                                    <a href="javascript:;" class="text-dark">MateLabs mixes machine learning</a>
+                                </h4>
+                                <p>
+                                    If you’ve ever wanted to train a machine learning model and integrate it with IFTTT,
+                                    a new offering from MateLabs. MateVerse, a platform where novices can spin out
+                                    machine... <a href="javascript:;"> Read More </a>
+                                </p>
+                                <div class="author">
+                                    <img src="../../assets/img/team-3.jpg" alt="team-3"
+                                        class="avatar avatar-sm shadow me-2">
+                                    <p class="my-auto">John Mannes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-plain card-blog my-5">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="card-image position-relative border-radius-lg">
+                                    <div class="blur-shadow-image">
+                                        <img class="img border-radius-lg"
+                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-buildings.jpg"
+                                            alt="buildings">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 my-sm-auto mt-3 ms-sm-3">
+                                <h4>
+                                    <a href="javascript:;" class="text-dark">US venture investment tricks</a>
+                                </h4>
+                                <p>
+                                    Venture investment in U.S. startups rose sequentially in the second quarter of 2017,
+                                    boosted by large, late-stage financings and a few outsized early-stage rounds in
+                                    tech and healthcare.. <a href="javascript:;"> Read More </a>
+                                </p>
+                                <div class="author">
+                                    <img src="../../assets/img/team-2.jpg" alt="team-2"
+                                        class="avatar avatar-sm shadow me-2">
+                                    <p class="my-auto">Devin Coldewey</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <ul class="pagination pagination-primary mt-4 ml-2">
+                    <li class="page-item">
+                        <a class="page-link" href="javascript:;" aria-label="Previous">
+                            <span aria-hidden="true"><i class="fa fa-angle-double-left" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link active" href="javascript:;">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="javascript:;">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="javascript:;">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="javascript:;">4</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="javascript:;">5</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="javascript:;" aria-label="Next">
+                            <span aria-hidden="true"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 ml-auto">
+                <div class="pt-1 pb-5 position-sticky top-1 mt-lg-8 mt-5">
+                    <h4>Newsletter</h4>
+                    <p>Get access to subscriber exclusive deals and be the first who gets informed about fresh sales.
+                    </p>
+                    <div class="my-3">
+                        <input type="text" class="form-control mb-sm-0 mb-2" placeholder="Email Here...">
+                    </div>
+                    <button type="button" class="btn bg-gradient-primary">Subscribe</button>
+                    <h4 class="mt-5">Activity</h4>
+                    <a href="javascript::">
+                        <div class="card justify-content-center mb-3">
+                            <div class="card-body p-3">
+                                <h6 class="mb-0">Top 50 Tips for Creative Tim</h6>
+                                <p class="mb-0 text-body">Mar 08, 2020</p>
+                            </div>
+                            <div class="position-absolute end-0 me-3 ">
+                                <i class="fas fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="javascript::">
+                        <div class="card justify-content-center mb-3">
+                            <div class="card-body p-3">
+                                <h6 class="mb-0">Best ways to avoid the Burnout</h6>
+                                <p class="mb-0 text-body">Aug 11, 2020</p>
+                            </div>
+                            <div class="position-absolute end-0 me-3 ">
+                                <i class="fas fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="javascript::">
+                        <div class="card justify-content-center mb-3">
+                            <div class="card-body p-3">
+                                <h6 class="mb-0">Fascinating tactics to help your Business</h6>
+                                <p class="mb-0 text-body">Jan 07, 2021</p>
+                            </div>
+                            <div class="position-absolute end-0 me-3 ">
+                                <i class="fas fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <h4 class="mt-5">Top Stories</h4>
+                    <div class="card card-plain card-blog mt-4">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="card-image position-relative border-radius-lg">
+                                    <div class="blur-shadow-image">
+                                        <img class="img border-radius-lg"
+                                            src="../../assets/img/curved-images/curved11.jpg" alt="curved11">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 my-sm-auto mt-3">
+                                <h5>
+                                    <a href="javascript:;" class="text-dark font-weight-normal">MateLabs mixes machine
+                                        learning</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-plain card-blog mt-4">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="card-image position-relative border-radius-lg">
+                                    <div class="blur-shadow-image">
+                                        <img class="img border-radius-lg"
+                                            src="../../assets/img/curved-images/curved9.jpg" alt="curved9">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 my-sm-auto mt-3">
+                                <h5>
+                                    <a href="javascript:;" class="text-dark font-weight-normal">Mixes machine
+                                        learning</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-plain card-blog mt-4">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="card-image position-relative border-radius-lg">
+                                    <div class="blur-shadow-image">
+                                        <img class="img border-radius-lg"
+                                            src="../../assets/img/curved-images/curved8.jpg" alt="curved8">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 my-sm-auto mt-3">
+                                <h5>
+                                    <a href="javascript:;" class="text-dark font-weight-normal">MateLabs mixes machine
+                                        learning</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="mt-5 mb-4">Tags</h4>
+                    <span class="badge bg-light text-dark">Support</span>
+                    <span class="badge bg-light text-dark">Business</span>
+                    <span class="badge bg-light text-dark">Analytics</span>
+                    <span class="badge bg-light text-dark">Tutorials</span>
+                    <span class="badge bg-light text-dark mt-2">Sponsorships</span>
+                </div>
+            </div>
+        </div>
     </div>
-</nav>
+
+    <footer class="footer pt-5 mt-5">
+        <hr class="horizontal dark mb-5">
+        <div class="container">
+            <div class=" row">
+                <div class="col-md-3 mb-4 ms-auto">
+                    <div>
+                        <h6 class="text-gradient text-primary font-weight-bolder">Pusat Prestasi Nasional</h6>
+                    </div>
+                    <div>
+                        <h6 class="mt-3 mb-2 opacity-8">Social</h6>
+                        <ul class="d-flex flex-row ms-n3 nav">
+                            <li class="nav-item">
+                                <a class="nav-link pe-1" href="https://www.instagram.com/puspresnas" target="_blank">
+                                    <i class="fab fa-instagram text-lg opacity-8"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-1" href="https://www.facebook.com/puspresnas.puspresnas.1/"
+                                    target="_blank">
+                                    <i class="fab fa-facebook text-lg opacity-8"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-1" href="https://www.youtube.com/@pusatprestasinasional"
+                                    target="_blank">
+                                    <i class="fab fa-youtube text-lg opacity-8"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-1" href="https://twitter.com/puspresnas" target="_blank">
+                                    <i class="fab fa-twitter text-lg opacity-8"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-1" href="https://pusatprestasinasional.kemdikbud.go.id/"
+                                    target="_blank">
+                                    <i class="fab fa-google-plus text-lg opacity-8"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-6 mb-4">
+                    <div>
+                        <h6 class="text-gradient text-primary text-sm">Company</h6>
+                        <ul class="flex-column ms-n3 nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.creative-tim.com/presentation" target="_blank">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.creative-tim.com/templates/free" target="_blank">
+                                    Freebies
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.creative-tim.com/templates/premium"
+                                    target="_blank">
+                                    Premium Tools
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.creative-tim.com/blog" target="_blank">
+                                    Blog
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-6 mb-4">
+                    <div>
+                        <h6 class="text-gradient text-primary text-sm">Resources</h6>
+                        <ul class="flex-column ms-n3 nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://iradesign.io/" target="_blank">
+                                    Illustrations
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.creative-tim.com/bits" target="_blank">
+                                    Bits & Snippets
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.creative-tim.com/affiliates/new" target="_blank">
+                                    Affiliate Program
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-6 mb-4">
+                    <div>
+                        <h6 class="text-gradient text-primary text-sm">Help & Support</h6>
+                        <ul class="flex-column ms-n3 nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.creative-tim.com/contact-us" target="_blank">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.creative-tim.com/knowledge-center"
+                                    target="_blank">
+                                    Knowledge Center
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://services.creative-tim.com/?ref=ct-soft-ui-footer"
+                                    target="_blank">
+                                    Custom Development
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.creative-tim.com/sponsorships" target="_blank">
+                                    Sponsorships
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 col-6 mb-4 me-auto">
+                    <div>
+                        <h6 class="text-gradient text-primary text-sm">Contact</h6>
+                        <ul class="flex-column ms-n3 nav">
+                            <li class="nav-item">
+                                <p class="nav-link">
+                                    <i class="fas fa-map-marker-alt"></i> Komplek Kementerian Pendidikan, Kebudayaan,
+                                    Riset, dan
+                                    Teknologi, Gedung C, Lantai 19
+                                </p>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tel:0215731177">
+                                    <i class="fas fa-phone"></i> 021-5731177
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="text-center">
+                        <p class="my-4 text-sm">
+                            All rights reserved. Copyright ©
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script> Soft UI Design System by <a href="https://www.creative-tim.com"
+                                target="_blank">Creative Tim</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
+
+    <script src="./assets/js/plugins/typedjs.js"></script>
+
+    <script src="./assets/js/plugins/countup.min.js"></script>
+
+    <script src="./assets/js/plugins/rellax.min.js"></script>
+
+    <script src="./assets/js/plugins/tilt.min.js"></script>
+
+    <script src="./assets/js/plugins/choices.min.js"></script>
+
+    <script src="./assets/js/plugins/parallax.min.js"></script>
+
+    <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+
+    <script src="./assets/js/plugins/glidejs.min.js" type="text/javascript"></script>
+
+    <script src="./assets/js/plugins/anime.min.js" type="text/javascript"></script>
+
+    <script src="./assets/js/plugins/chartjs.min.js"></script>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="./assets/js/soft-design.min.js?v=1.1.1" type="text/javascript"></script>
+    <script>
+    </script>
+    <script type="text/javascript">
+        if (document.getElementById('state1')) {
+            const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
+            if (!countUp.error) {
+                countUp.start();
+            } else {
+                console.error(countUp.error);
+            }
+        }
+        if (document.getElementById('state2')) {
+            const countUp1 = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
+            if (!countUp1.error) {
+                countUp1.start();
+            } else {
+                console.error(countUp1.error);
+            }
+        }
+        if (document.getElementById('state3')) {
+            const countUp2 = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
+            if (!countUp2.error) {
+                countUp2.start();
+            } else {
+                console.error(countUp2.error);
+            };
+        }
+    </script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/vedd3670a3b1c4e178fdfb0cc912d969e1713874337387"
+        integrity="sha512-EzCudv2gYygrCcVhu65FkAxclf3mYM6BCwiGUm6BEuLzSb5ulVhgokzCZED7yMIkzYVg65mxfIBNdNra5ZFNyQ=="
+        data-cf-beacon='{"rayId":"87e12c80c9fb5c30","version":"2024.4.1","token":"1b7cbb72744b40c580f8633c6b62637e"}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
